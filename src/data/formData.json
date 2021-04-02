@@ -6,22 +6,29 @@
             "id": "name",
             "type": "textbox",
             "sequence": 1
-        }, {
+        },
+        {
+            "label": "Last Name",
+            "id": "lname",
+            "type": "textbox",
+            "sequence": 2
+        }
+        , {
             "label": "DOB",
             "id": "dob",
             "type": "date",
-            "sequence": 2
+            "sequence": 3
         }, {
             "label": "Address",
             "id": "address",
             "type": "textarea",
-            "sequence": 3
+            "sequence": 5
         },
         {
             "label": "Mobile",
             "id": "mobile",
             "type": "number",
-            "sequence": 2
+            "sequence": 4
         }]
     }
 }

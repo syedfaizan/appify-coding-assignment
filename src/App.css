@@ -28,9 +28,18 @@
 
 .form-item{
   flex: auto;
+  width: 300px;
+  height: 20px;
 }
 
 .btn-submit{
+  margin-top: 15px;
   padding: 2% 5% 2% 5%;
 
+}
+
+.autocomplete{
+  position: absolute;
+  background-color: white;
+  color: black;
 }
