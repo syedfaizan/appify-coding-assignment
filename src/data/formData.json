@@ -6,12 +6,6 @@
             "id": "name",
             "type": "textbox",
             "sequence": 1
-        },
-        {
-            "label": "Last Name",
-            "id": "lname",
-            "type": "textbox",
-            "sequence": 2
         }
         , {
             "label": "DOB",
