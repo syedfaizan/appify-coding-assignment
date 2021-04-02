@@ -1,6 +1,6 @@
 import React from 'react';
 import InputField from './InputField';
-import { saveFormData, getFormData } from '../controller/formData';
+import { saveFormData } from '../controller/formData';
 
 
 export default class Form extends React.Component{

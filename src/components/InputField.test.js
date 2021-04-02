@@ -18,23 +18,4 @@ test('renders error input of number type', () => {
   render(<InputField {...formItem}/>);
   const inputElement = screen.getByTestId('data-mobile');
   expect(inputElement).toBeInTheDocument();
-  console.log(inputElement)
-  // expect(inputElement.pendingProps.type).toBe('input');
-  // expect(inputElement.pendingProps.id).toBe('mobile');
-  
 });
-
-
-// test('renders error input of textarea type', () => {
-//   let formItem = {
-//     "label": "Address",
-//     "id": "address",
-//     "type": "textarea",
-//     "sequence": 3
-// };
-//   render(<InputField {...formItem}/>);
-//   const inputElement = screen.getByTestId('data-address');
-//   expect(inputElement.pendingProps.type).toBe('textarea');
-//   expect(inputElement.pendingProps.id).toBe('address');
-  
-// });
